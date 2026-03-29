@@ -1,102 +1,323 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>Dummy Webpage</title>
+    <meta name='language' content='ES'>
+    <title>Sonora Podcast</title>
+    <meta name="keywords" content="sonora, podcast, radio, evento, vivo, uruguay, cifespod">
+    <meta name="description" content="Sonora es un encuentro para ver podcasts en vivo, charlas, talleres y mesas de debate.
+    En 2025, vuelve para ofrecerte un evento renovado.">
+    <link rel="canonical" href="https://sonorapodcast.uy/">
+    <link rel="shortlink" href="https://sonorapodcast.uy/">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background: #4a90e2;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background: #333;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            color: #4a90e2;
-        }
-        main {
-            padding: 20px;
-        }
-        .card {
-            background: white;
-            padding: 15px;
-            margin: 15px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        footer {
-            background: #222;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 20px;
-        }
-        button {
-            background: #4a90e2;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background: #357abd;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/carousel.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <meta name="robots" content="noimageindex">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sonora Podcast">
+    <meta property="og:description" content="En 2025, Sonora vuelve para ofrecerte un evento renovado">
+    <meta property="og:url" content="https://sonorapodcast.uy/">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
+    <meta name="google-site-verification" content="5NHBCV5yhxHVgw-RLaOABxT2N9vGjbQUbtiNLvWVSsQ">
 </head>
+
 <body>
+    <!-- Esta página fue hecha por Luciana Rossi y Martín Capuano -->
+    <header>
+        <nav id="navbar" class="">
+            <img id="nav_logo1" src="./resources/logos/Sonora.png">
+            <img id="nav_logo2" class="logo_hidden" src="./resources/logos/Sonora.png">
+            <div id="date" class="date">
+                <h3>NOV 2025</h3>
+                <a href="https://maps.app.goo.gl/QyVayn7jmDkS8JiAA"
+                    target="_blank"><img src="./resources/logos/SPONSORS/AECID_miniwhite.svg" alt="Centro Cultural de España"
+                        id="optalogo"></a>
+                    
+            </div>
+            <button id="scrolldown">&darr;</button>
+        </nav>
+    </header>
+    <main>
+        <div class="float-sm">
+            <div class="float-sm">
+                <div class="fl-fl float-tw hide-fl">
+                    <img class="fa" src="./resources/icons/X.svg">
+                    <a href="https://x.com/SonoraPodcastUy" target="_blank"> X-Twitter</a>
+                </div>
+                <div class="fl-fl float-ig hide-fl">
+                    <img class="fa" src="./resources/icons/instagram.svg">
+                    <a href="https://www.instagram.com/sonorapodcastuy/" target="_blank"> Instagram</a>
+                </div>
+                <div class="fl-fl float-yt hide-fl">
+                    <img class="fa" src="./resources/icons/youtube.svg">
+                    <a href="https://www.youtube.com/@SonoraPodcast" target="_blank"> Youtube</a>
+                </div>
+                <div class="fl-fl float-spotify hide-fl">
+                    <img class="fa" src="./resources/icons/spotify.svg">
+                    <a href="https://open.spotify.com/show/2NcDZbmI66IHucPdaQqEts" target="_blank"> Spotify</a>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="podcast">
+            <div id="grilla">
+                <div class="podcard">
+                    <h2>Estos serán los shows que se presentarán en vivo en Sonora Festival de Podcast el sábado 9 de noviembre:</h2>
+                    <img class="" src="./resources/grilla/grilla1.svg" alt="grilla">
+                </div> 
+            </div>
+            <br>
+            <div id="redtickets">
+                <img src="./resources/logos/SPONSORS/REDTICKETS.png" alt="redtickets">
+                <h3>Entrada libre y gratuita con previa reserva. Asegurá tu lugar <strong><a
+                    href="https://redtickets.uy/evento/Sonora--Festival-de-Podcast/17875/"
+                    target="_blank">acá</a></strong></h3>
+            </div> 
+            
+        </div>-->
+        <!-- <div id="podcast">
+            <h2>Estos son algunos de los podcasts que vas a ver y escuchar ¡en vivo!</h2>
+            <br>
+            <div id="grilla">
+                <div class="podcard">
+                    <a href="https://open.spotify.com/show/1d9EjrJle63PVhwhci1Ejt" target="_blank"><img class=""
+                            src="./resources/banners/gastropolitica.png" alt="Gastropolitica"></a>
+                </div>
+                <div class="podcard">
+                    <a href="https://open.spotify.com/show/2Q6rQcOzQTnNvY111pAVHT?si=748c314bbe894e08"
+                        target="_blank"><img class="" src="./resources/banners/8quecuentan.png" alt="8 Que Cuentan"></a>
+                </div>
+                <div class="podcard">
+                    <a href="https://www.youtube.com/channel/UCSZ7G6mnM0lD9V5cN-z0D3g" target="_blank"><img class=""
+                            src="./resources/banners/adonde.png" alt="A Donde Nos Lleva Esto"></a>
+                </div>
+                <div class="podcard">
+                    <a href="https://open.spotify.com/show/11fSDc0JvWGP2jAjBx1isj?si=fe50b3775bba42a9"
+                        target="_blank"><img class="" src="resources\podcasts\tortulia-2.png" alt="La Tortulia"></a>
+                </div>
+                <div class="podcard">
+                    <a href="https://open.spotify.com/show/40cHa1hKv7Uf0bWPLecvUq?si=e9fb6cd812db440d"
+                        target="_blank"><img class="" src="./resources/banners/bellezaquimica.png"
+                            alt="Belleza Quimica"></a>
+                </div>
+                <div class="podcard">
+                    <a href="https://www.marianopagella.com.ar/" target="_blank"><img class=""
+                            src="resources\podcasts\desarmaudio3.jpg" alt="Desarmaudio"></a>
+                </div>
+            </div>
+            <br>
+            <h3>Y MÁS POR ANUNCIAR!</h3>
+        </div> -->
 
-<header>
-    <h1>My Dummy Webpage</h1>
-    <p>A simple sample layout</p>
-</header>
+        <div id="about">
+            <h1>¿Qué es Sonora?</h1>
+            <!-- <h3>El primer evento de podcasting del Uruguay</h3>
+            <br> -->
+            <br>
+            <p>Sonora es un encuentro para ver podcasts en vivo, charlas, talleres y mesas de debate. Volvemos a encontrarnos el <strong><span class="highlight">21 y 22 de noviembre</span></strong>, esta vez en el hermoso <strong><a href="https://maps.app.goo.gl/QyVayn7jmDkS8JiAA" target="_blank"><span class="highlight"></span>Centro Cultural de España</a></span></strong> en Montevideo.
+            <br>
+            <br>
+            La <strong><span class="highlight">entrada</span></strong>, como siempre, será <strong><span class="highlight">gratuita</span></strong> con previa inscripción por cupos limitados.
+            </p>
+        </div>
+        <div id="premios">
+            <img src="./resources/logos/Aural_Logo2_Blanco.png" alt="Premios Aural" id="aural">
+            <div class="container2">
+                <p>
+                    En conjunto con el Circuito Iberoamericano de Festivales de Podcast (CIFESPOD) durante el Festival Sonora volveremos a entregar el <strong><a href="https://www.instagram.com/premiosaural/" target="_blank"><span class="highlight">premio Sonora Aural</span></a></strong> a las producciones sonoras más destacadas de nuestro país. Contaremos con un jurado especializado para su elección, donde se tendrá en cuenta la calidad narrativa, de guión y diseño sonoro, y la creatividad en el formato.
+                    <br><br>
+                    Desde el <strong><span class="highlight">15 de agosto al 30 de septiembre de 2025</span></strong> inclusive vas a poder postular tu podcast <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLScv2JhkqF7KfSOxolfNmI4EK04xlF10QoVH6cbTgVirZ-VApA/viewform" target="_blank"><span class="highlight"></span>en este formulario de inscripción</span></a></strong>.
+                    <br><br> 
+                    Acá encontras las <strong><a href="https://drive.google.com/file/d/1z43NaMmVt9W0V6L7OAZNW63UrL-izrbQ/view" target="_blank"><span class="highlight">bases y condiciones</span></a></strong> para participar.
+                    <br>
+                    
+                </p>
+            </div>
+        </div>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-</nav>
+        <div id="taller" class="taller">
+            <h1>PRÓXIMAMENTE. . . <br>SONORA CREATIVA 2025</h1>
+            <div class="container-t">
+                <!-- <img src="./resources/banners/TALLER._BANNER.png" alt="taller"> -->
+                <p>
+                    Este año el Sonora Creativa tendrá lugar el <span class="highlight"><strong>sábado 22 de noviembre</strong></span> en el Centro Cultural de España en Montevideo, <span class="highlight"><strong>¡con acceso totalmente gratuito!</strong></span>
+                    
+                    Pronto tendremos más novedades sobre los talleres y cómo inscribirte.
+                </p>
+            </div>
+        </div>
 
-<main>
-    <div class="card">
-        <h2>Welcome</h2>
-        <p>This is a dummy webpage created as an example. You can modify this template for your own projects.</p>
-        <button onclick="showMessage()">Click Me</button>
-    </div>
+        <div id="newsletter">
+            <h2><span class="highlight-2"><strong>¡</span></strong>Tenemos newsletter<span class="highlight-2"><span>!</span></strong></h2>
+            <div class="news-container">
+                <!-- <img src="./resources/banners/TALLER._BANNER.png" alt="taller"> -->
+                 <p class="newsletter-1">
+                    Estamos construyendo la <span class="highlight"><strong>Comunidad Sonora</strong></span>, un lugar para quienes quieren estar al tanto de la movida podcastera de acá y de allá. En <span class="highlight"><strong>nuestro newsletter</strong></span>, además de mucha info, vamos a estar comunicando primicias, novedades, accesos anticipados y descuentos en eventos relacionados al podcasting.
+                </p>
+            </div>
+            <div class="news-container">
+                <p class="newsletter">☝️ No te pierdas nada, suscribite en <span class="highlight"><strong><a href="https://festivalsonora.substack.com" target="_blank">festivalsonora.substack.com/</a></strong></span>
+                </p>
+            </div>
+        </div>
 
-    <div class="card">
-        <h2>Sample Content</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-    </div>
-</main>
+        <div id="cifespod">
+            <h2>Circuito Iberoamericano<br>de Festivales de Podcast</h2>
+            <div class="container">
+                <p>Sonora forma parte del Circuito Iberoamericano de Festivales de Podcast junto a <strong><a
+                            href="https://www.estacionpodcast.com/" target="_blank">Estación Podcast</a></strong>,
+                    <strong><a href="https://prosodia.es/" target="_blank">Prosodia</a></strong> y <strong><a
+                            href="https://www.podcastdays.es/" target="_blank">Podcast Days</a></strong> de España,
+                    <strong><a href="https://www.instagram.com/podcastaloido/" target="_blank">Podcast Al
+                            Oído</a></strong> y <strong><a href="https://www.podcastinacion.com/"
+                            target="_blank">Podcastinación</a></strong> de Colombia, <strong><a
+                            href="https://www.festivalestereo.ar/" target="_blank">Estéreo Festival</a></strong> de
+                    Argentina, <strong><a href="https://www.podcastfestlatam.com/" target="_blank">Podcast
+                            Fest</a></strong> de Chile, <strong><a href="https://www.sonarfestival.mx/"
+                            target="_blank">Sonar</a></strong> y <strong><a href="https://www.podconmx.com/"
+                            target="_blank">PodconMx</a></strong> de México, y <strong><a
+                            href="https://open.spotify.com/show/4oRUIa3RETfqoVwHr931JE"
+                            target="_blank">PodDrama</a></strong> de Brasil.
+                </p>
+                <img src="./resources/logos/CP_Logo_B_3.png" alt="CIFESPOD LOGO">
+            </div>
+        </div>
+        <div id="video">
+            <h1>Sonora 2024</h1>
+            <lite-youtube videoid="1jwvihnXLA4"></lite-youtube>
+            <!-- <iframe loading="lazy" src="https://www.youtube.com/embed/-pc3oEecqhw?si=PURUwwtcAHUraUkH"
+                title="Sonora 2022" frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen></iframe> -->
+        </div>
+        <div id="carrousel">
+            <h1>Más sobre nuestra edición 2024</h1>
+            <div class="pic-ctn">
+                <img src="./resources/carousel/2024/MAT2927.JPG" alt="Foto de Sonora 2024" class="pic active">
+                <img src="./resources/carousel/2024/MAT2956.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img src="./resources/carousel/2024/MAT3041.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3077.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3161.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3197.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3242.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3284.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3485.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024//MAT3501.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3517.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3523.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3574.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3630.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3756.JPG" alt="Foto de Sonora 2024" class="pic">
+                <img loading="lazy" src="./resources/carousel/2024/MAT3774.JPG" alt="Foto de Sonora 2024" class="pic">
 
-<footer>
-    <p>&copy; 2026 Dummy Website. All rights reserved.</p>
-</footer>
-
-<script>
-    function showMessage() {
-        alert("Hello! This is a dummy interaction.");
-    }
-</script>
-
+                <a id="prev_btn" class="prev">❮</a>
+                <a id="next_btn" class="next">❯</a>
+            </div>
+            <br>
+            <div id="dot-container" style="text-align:center">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <!-- <div id="playlist">
+            <h2>Escuchá nuestra última edición</h2>
+            <iframe loading="lazy" style="border-radius:12px"
+                src="https://open.spotify.com/embed/show/2NcDZbmI66IHucPdaQqEts?utm_source=generator" width="100%"
+                height="352" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div> -->
+        <div id="prefooter">
+            <div id="sponsors">
+                <div class="container-sp">
+                    <h3 class="head">Apoya:</h3>
+                    <div class="support-logos">
+                        <a href="https://maps.app.goo.gl/QyVayn7jmDkS8JiAA"
+                    target="_blank"><img src="./resources/logos/APOYO/AECID_black.svg" alt="Centro Cultural de España" class="logo2"></a>
+                        <img src="./resources/logos/APOYO/ANII.svg" alt="ANII" class="logo2">
+                        <img src="./resources/logos/APOYO/EMBAJADAESP.svg" alt="Embajada de España" class="logo3">
+                        <img src="./resources/logos/APOYO/LogoMEC2.svg" alt="MEC" class="logo4">
+                        <img src="./resources/logos/APOYO/VAGACAFE.svg" alt="Vaga Café" class="logo2">
+                    </div>
+                </div>
+                <div class="container-mp">
+                    <h3 class="head">Media Partners:</h3>
+                    <div class="media-logos">
+                        <img src="./resources/logos/partners/ElPais3.svg" alt="El Pais" class="logo2">
+                        <img src="./resources/logos/partners/Brecha.svg" alt="Brecha" class="logo2">
+                        <img src="./resources/logos/partners/LaDiariaBlack.svg" alt="La Diaria" class="logo2">                   <img src="./resources/logos/partners/M24.svg" alt="M24" class="logo2">
+                        <img src="./resources/logos/partners/3.svg" alt="El Observador" class="logo3">
+                        <img src="./resources/logos/partners/TVCIUDAD.svg" alt="TV Ciudad" class="logo2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="prefooter-2">
+            <div id="sponsors-2">
+                <h3 class="head">Sponsors:</h3>
+                <div class="container-sp-2">                   
+                    <img src="./resources/logos/SPONSORS/Logo_ibis_Black_RGB (1).png" alt="Ibis" class="logo-s">
+                    <img src="./resources/logos/SPONSORS/Logo-ORT.svg" alt="ORT" class="logo-ort">
+                    <img src="./resources/logos/SPONSORS/LogoUCU2.svg" alt="UCU" class="logo-ucu">
+                    <img src="./resources/logos/SPONSORS/HINDENBURG2.png" alt="Hidenburg" class="logo-s">
+                    <!-- <img src="./resources/logos/SPONSORS/Café Doré.svg" alt="Café Doré" class="logo-s">
+                     <img src="./resources/logos/SPONSORS/logo-um.png" alt="UM" class="logo-s">                     
+                    <img src="./resources/logos/SPONSORS/Café Doré.svg" alt="Café Doré" class="logo-s">
+                    <img src="./resources/logos/SPONSORS/HINDENBURG2.png" alt="Hidenburg" class="logo-s">
+                    <img src="./resources/logos/SPONSORS/AECID_Color.svg" alt="CCE" class="logo-s">
+                    <img src="./resources/logos/SPONSORS/logo-um.png" alt="UM" class="logo-s"> -->
+                </div>                
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p><strong>Organiza: </strong><a href="https://www.uycast.com" target="_blank"><img class="footer_logo"
+                    src="./resources/logos/uycast.png" alt="UyCast"></a></p>
+        <p id="correo"><strong>Contacto: hola@sonorapodcast.uy</strong></p>
+        <!-- <img class="mec_logo" src="./resources/logos/Logo MEC_Declarado de interés ministerial_diapo.png" alt="MEC"> -->
+    </footer>
+    <footer class="licencia">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+            <a property="dct:title"
+                rel="cc:attributionURL" href="https://sonorapodcast.uy/">Sonora Podcast Webpage</a>
+                <span
+                property="cc:attributionName">&ThickSpace;by <a href="https://www.linkedin.com/in/luciana-rossi-figueroa?trk=contact-info" target="_blank" rel="noopener noreferrer" style="all: unset;cursor: pointer;">Luciana Rossi</a> & <a href="https://www.linkedin.com/in/mart%C3%ADn-capuano-barcena-24b896224/" target="_blank" rel="noopener noreferrer" style="all: unset;cursor: pointer;">Martin Capuano</a></span>
+                &ThickSpace; is licensed under<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank"
+                rel="license noopener noreferrer">
+                CC BY-NC-SA 4.0
+                <img
+                    style="height:15px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                    <img
+                    style="height:15px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+                    <img
+                    style="height:15px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+                    <img
+                    style="height:15px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+                </a>
+            </p>
+    </footer>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
 </body>
+
 </html>
